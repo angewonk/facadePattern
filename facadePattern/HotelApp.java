@@ -21,8 +21,8 @@ public class HotelApp {
                 scanner.nextLine();
             } catch (InputMismatchException e) {
                 System.out.println("\nInvalid input. Please enter a valid number.");
-                scanner.nextLine(); // Clear the invalid input
-                continue; // Skip the rest of the loop and start from the beginning
+                scanner.nextLine();
+                continue;
             }
 
             switch (usrChc) {
